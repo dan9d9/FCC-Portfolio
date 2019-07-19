@@ -3,14 +3,11 @@ html {
     scroll-behavior: smooth;    
 }
 
-body {    
-    
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: solid 1px red;
 }
 
 a {
@@ -111,6 +108,42 @@ a {
 }
 
 #projects {
-    background-color: green;
+    height: 40em;
+    background-image: repeating-linear-gradient( 
+        rgba(2, 133, 255),
+        rgb(31, 146, 253),
+        rgb(57, 102, 145)
+        );
+        text-align: center;
 }
+
+.projectH2 {
+    height: 2em;
+}
+
+.projectFlexBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    outline: solid 2px black;
+    height: 100%;
+}
+
+.project-tile {
+    width: 25%;
+    outline: dashed 3px green;
+}
+
+.projectOne, .projectThree {
+    padding-bottom: 29em;
+}
+
+.projectTwo, .projectFour {
+    padding-top: 29em;
+
+}
+
+
+
 
